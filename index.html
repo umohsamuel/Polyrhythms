@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <div id="control-bar-wrapper">
+        <div id="control-bar">
+            <button id="sound-toggle" class="toggle" type="button" data-toggled="false" onClick="handleSoundToggle()"
+                title="Toggle Pulse">
+                <i class="fa-solid fa-music-slash off"></i>
+                <i class="fa-solid fa-music on"></i>
+            </button>
+        </div>
+    </div>
+    
+    <div id="background-image"></div>
+    
+    <div id="background-filter"></div>
+    
+    <div id="logo"> 
+        <img src="./assets/cry.jpg" alt="" />
+    </div>
+    
+    <div id="sound-message">
+        <p>Click anywhere to toggle sound</p>
+    </div>
+    
+    <canvas id="paper"></canvas>
+    <script type="text/javascript" src="./script.js"></script>
+</body>
+</html>
